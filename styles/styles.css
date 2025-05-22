@@ -1,0 +1,24 @@
+.container h1{
+    text-align: center;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.5;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content:center;
+    background-color: #9D8E69;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #271F30;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: #3B3343;
+}
