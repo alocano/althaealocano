@@ -4,21 +4,29 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height:1.5;
+    background-color: #D8F2F2;
 }
 .nav-list {
     list-style: none;
     display: flex;
     gap: 2rem;
     justify-content:center;
-    background-color: #9D8E69;
+    background-color: #90D0DA;
 }
 
 .nav-list a {
     text-decoration: none;
-    color: #271F30;
+    color: #070B0D;
     font-weight: bold;
 }
 
 .nav-list a:hover {
-    color: #3B3343;
+    color: #162227;
+}
+
+.pattern-box {
+    background-color: #62B6CB;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
 }
