@@ -1,5 +1,8 @@
-.container h1{
+h1{
     text-align: center;
+}
+h2{
+    text-align:center;
 }
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -25,8 +28,25 @@ body{
 }
 
 .pattern-box {
-    background-color: #62B6CB;
+    background-color: #90D0DA;
     padding: 20px;
-    width: 30%;
+    width: 25%;
     text-align: center;
 }
+
+img{
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.pattern-grid {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 15px;
+grid-row-gap: 15px;
+    text-align: center;
+}
+
+
