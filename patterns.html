@@ -1,41 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patterns</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <div class="container">
-      <h1>Patterns</h1>
-    </div>
     <nav>
-        <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="patterns.html">Patterns</a></li>
-            <li><a href="materials.html">Resources</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="patterns.html">Patterns</a>
+        <a href="resources.html">Resources</a>
     </nav>
-    <h2>Spring 2025</h2>
-    <h3>Here are the patterns from the workshops in Spring 2025!</h3>
-    <!-- <p>This is a basic crochet pattern for a <strong>heart-shaped keychain!</strong> It's great for beginners and only takes a couple minutes!<br></p>
-    <a href="https://www.youtube.com/watch?v=w9CXXsu6YSA" title="Heart Keychain Pattern">
-        This is a link to a great video tutorial by Hooked by Robin on YouTube on how to make the heart.
-    <br></a>
-    <img src="https://sarahmaker.com/wp-content/uploads/2021/01/crochet-heart-pattern-9.jpg" alt="Crochet Hearts by Sarah Maker" width="370" height="555"/> -->
-    
-    <!-- <div class="pattern-box">
-        <div class="img">
-            <img src="https://sarahmaker.com/wp-content/uploads/2021/01/crochet-heart-pattern-9.jpg" alt="Crochet Hearts by Sarah Maker" width="" height="250"/>
-        </div>
-        <a href="heart.html">Pattern 1: Heart Keychain</a>
-    </div> -->
 
-    <div class="pattern-grid">
-        <div><img src="images\crochet-heart-pattern-9-683x1024.png" alt="Crochet Hearts by Sarah Maker" width="300" height="300"/><br><a href="heart.html">Heart Keychain</a></div>
-        <div><img src="images\clover.png" alt="4 Leaf Clover Crochet Pattern by Kimberly Arenas" width="300" height="300"><br>Clover Keychain</div>
-        <div><img src="images\crochet_flower.png" alt="Crochet Flowers by Moms&Crafters" width="300" height="300"><br>Flower Keychain</div>
-        <div>4</div>
+    <div class="container">
+        <h1>Patterns</h1>
+        
+        <div class="search-section">
+            <div class="search-bar">
+                <svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input type="text" placeholder="Search patterns...">
+            </div>
+            <button class="filter-btn">Filter</button>
+        </div>
+
+        <div class="patterns-grid">
+            <div class="pattern-card">
+                <div class="pattern-image">
+                    <img src="images/crochet-heart-pattern-9-683x1024.png" alt="Heart Keychain">
+                </div>
+                <h3>Heart Keychain</h3>
+                <div class="tags">
+                    <span class="tag">Beginner</span>
+                    <span class="tag">Accessory</span>
+                </div>
+            </div>
+
+            <div class="pattern-card">
+                <div class="pattern-image">
+                    <img src="images/clover.png" alt="Clover Keychain">
+                </div>
+                <h3>Clover Keychain</h3>
+                <div class="tags">
+                    <span class="tag">Beginner</span>
+                    <span class="tag">Accessory</span>
+                </div>
+            </div>
+
+            <div class="pattern-card">
+                <div class="pattern-image">
+                    <img src="images/crochet_flower.png" alt="Flower Keychain">
+                </div>
+                <h3>Flower Keychain</h3>
+                <div class="tags">
+                    <span class="tag">Beginner</span>
+                    <span class="tag">Accessory</span>
+                </div>
+            </div>
+
+            <div class="pattern-card">
+                <div class="pattern-image">
+                    <img src="sprout.jpg" alt="Sprout">
+                </div>
+                <h3>Sprout</h3>
+                <div class="tags">
+                    <span class="tag">Beginner</span>
+                    <span class="tag">Accessory</span>
+                </div>
+            </div>
+
+            <div class="pattern-card">
+                <div class="pattern-image">
+                    <img src="images/crochet-heart-pattern-9-683x1024.png" alt="Heart Keychain">
+                </div>
+                <h3>Heart Granny Square</h3>
+                <div class="tags">
+                    <span class="tag">Beginner</span>
+                    <span class="tag">Granny Square</span>
+                </div>
+            </div>
+
+            <div class="pattern-card">
+                <div class="pattern-image">
+                    <!-- Empty card placeholder -->
+                </div>
+                <h3></h3>
+            </div>
+        </div>
     </div>
+
+    <footer></footer>
 </body>
 </html>
